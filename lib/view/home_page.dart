@@ -33,6 +33,7 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           setState(() {
             isLight = !isLight;
+            //  dark mode switch qiladi
           });
         },
         child: Center(
